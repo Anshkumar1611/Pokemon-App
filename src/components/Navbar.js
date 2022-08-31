@@ -15,7 +15,8 @@ function Navbar() {
             <li className='hover:text-green-600'><Link to='/contact'>Contact</Link></li>
           </ul>
         </div>
-        <Link to='/' className="btn btn-ghost normal-case text-xl font-bold hover:text-green-500"><RiMovie2Fill className='bg-slate-100 rounded text-primary'/>movie<span to='/' className='text-green-500'>DB</span></Link>
+        <Link to='/' className="btn btn-ghost normal-case text-xl font-bold hover:text-green-500">
+        <RiMovie2Fill className='bg-slate-100 rounded text-primary'/>pokemon<span to='/' className='text-green-500 hover:text'>DB</span></Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal p-0 ">
@@ -29,7 +30,7 @@ function Navbar() {
         <Link to='/' className="btn">signUp</Link>
         <div className="avatar online">
           <div className="w-10 rounded-full">
-            <img src="https://placeimg.com/192/192/people" />
+            <img src="https://placeimg.com/192/192/people" alt='pic'/>
           </div>
         </div>
       </div>
